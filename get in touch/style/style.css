@@ -1,0 +1,105 @@
+/* font-family: 'Work Sans', sans-serif; */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Start work */
+
+.container {
+    display: flex;
+    padding-left: 1%;
+}
+
+
+
+.left-side {
+
+    width: 48%;
+   
+}
+
+h3 {
+    font-size: 20px;
+    margin:5px 20px;
+    color: chartreuse;
+    
+}
+
+h2 {
+    font-size: 25px;
+    margin: 20px 20px;
+}
+p{
+    margin-bottom: 20px;
+}.wrapper{
+    display: inline-block;
+    width: 48%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px 20px;
+    font-size: 40px;
+    
+}
+
+.right-side {
+
+    width: 48%;
+    margin-left: 1%;
+     background-color: beige;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 1%;
+    
+
+}
+h4{
+    margin-bottom: 10px;
+}
+
+input {
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+   margin-bottom: 20px;
+    border-radius: 2px;
+}
+.wrapper li{
+    margin-bottom: 10px;
+    padding-left: 30px;
+   
+    text-align: left;
+    position: relative;
+}
+.fa-mobile{
+    font-size: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.fa-envelope-o{
+    margin-right: 5px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+.fa-map-marker{
+    margin-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+input:last-child{
+    height: 100px;
+}
+
+    
+    
+
